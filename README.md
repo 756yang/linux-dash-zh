@@ -82,6 +82,13 @@ node index.js
 
 ```
 
+或者你可以使用自动化安装脚本，它会提示你可能缺少的软件包并尝试安装(若无法安装则什么也不做)：
+``` sh
+cd /path/to/install
+bash -c "$(wget -qO- https://github.com/NoBey/linux-dash-zh/raw/master/install.sh)"
+
+```
+
 #### 如果使用Go
 ```sh
 ## 启动服务器（默认情况下在80端口上；可能需要sudo）
